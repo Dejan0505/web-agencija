@@ -11,8 +11,8 @@ input{
       margin-bottom: 10px;
       border-radius:10px;
       padding-left: 10px;
-      background: rgb(80, 192, 186);
-      border: 2px solid  white
+      background: rgb(79, 223, 215);
+      border: 2px solid  rgb(27, 59, 57);
 }
 .dugme input{
     width: 10%;
@@ -23,8 +23,8 @@ input{
 }
 textarea{
     border-radius:10px;
-    background: rgb(80, 192, 186);
-    border: 2px solid white
+    background: rgb(111, 238, 60);
+    border: 2px solid rgb(27, 59, 57);
 
 }
 
@@ -36,6 +36,7 @@ a {
     
     }
     
+<<<<<<< HEAD
     nav {
         background-color: wheat;
         text-align: right;
@@ -66,3 +67,9 @@ a {
         border: 1px solid black;
         border-radius: 20px;
     }
+=======
+nav {
+background-color: wheat;
+text-align: right;
+}
+>>>>>>> bab77c093104b8127bbd4fb83fd246111e8bce7a
