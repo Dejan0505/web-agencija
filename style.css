@@ -29,20 +29,20 @@ textarea{
 }
 
 a {
-    display: inline;
+    
     color: green;
     font-family: 'Cherry Bomb', cursive;
-    padding: 10px;
+   
     
-    }
+    } 
     
 
 
-nav{
+/* nav{
         background-color: white;
         text-align: right;
         
-    }
+    } */
 .contact a{
         text-decoration: none;
         font-size: 16;
@@ -78,16 +78,24 @@ nav{
     
 }
 
-nav {
+nav{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
 }
+
 .navig{
     display:flex;
-    justify-content: space-around;
+    justify-content:flex-end;
     width: 40%;
 }
-.navig a{
-    padding: 15px;
+.navig li{
+   margin-top: 20px;
+   padding:15px;
+   list-style: none;
+}
+.logo{
+    display:flex;
+    justify-content: flex-start;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
