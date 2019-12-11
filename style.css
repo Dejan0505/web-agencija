@@ -23,7 +23,7 @@ input{
 }
 textarea{
     border-radius:10px;
-    background: rgb(111, 238, 60);
+    background:  rgb(79, 223, 215);
     border: 2px solid rgb(27, 59, 57);
 
 }
@@ -39,4 +39,11 @@ a {
 nav {
 background-color: wheat;
 text-align: right;
+}
+.contact a {
+    border: 2px solid white;
+    font-size: 16pt;
+    font-weight: green;
+    text-decoration: none;
+    padding: 3px 8px;
 }
