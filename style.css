@@ -29,26 +29,17 @@ a {
     
     color: green;
     font-family: 'Cherry Bomb', cursive;
-<<<<<<< HEAD
    
     
     } 
     
 
 
-/* nav{
-        background-color: white;
-        text-align: right;
-        
-    } */
-=======
-    padding: 10px;
-}
+
 nav{
         background-color: white;
         text-align: right;  
 }
->>>>>>> b21b14a7e67faddf32231fd1d6abee36d5c24a61
 .contact a{
         text-decoration: none;
         font-size: 16;
