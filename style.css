@@ -1,4 +1,30 @@
 body{
-    background: blue;
+  
     background-image: url('../img/pozadina.jpg');
+}
+.contact{
+    text-align: center;
+   
+}
+input{
+      width:15%;
+      height: 30px;
+      margin-bottom: 10px;
+      border-radius:10px;
+      padding-left: 10px;
+      background: rgb(111, 238, 60);
+      border: 2px solid  rgb(27, 59, 57);
+}
+.dugme input{
+    width: 10%;
+    height: 30px;
+    font-size: 16pt;
+    font-weight: bold;
+    color: rgb(153, 28, 87);
+}
+textarea{
+    border-radius:10px;
+    background: rgb(111, 238, 60);
+    border: 2px solid rgb(27, 59, 57);
+
 }
