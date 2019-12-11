@@ -27,7 +27,6 @@ textarea{
     border: 2px solid white
 
 }
-<<<<<<< HEAD
 
 a {
     display: inline;
@@ -51,21 +50,19 @@ a {
         border-radius: 20px;
         padding: 2px 8px;
     }
-=======
-.slike1 {
-    display: flex;
-    justify-content: space-around;
-}
-.prodavnica {
-    border: 1px solid black;
-    border-radius: 20px;
-}
-.dostava {
-    border: 1px solid black;
-    border-radius: 20px;
-}
-.kontakt {
-    border: 1px solid black;
-    border-radius: 20px;
-}
->>>>>>> 1622bab7d43ceda15fbbc8b81598fed7f2cf8f95
+    .slike1 {
+        display: flex;
+        justify-content: space-around;
+    }
+    .prodavnica {
+        border: 1px solid black;
+        border-radius: 20px;
+    }
+    .dostava {
+        border: 1px solid black;
+        border-radius: 20px;
+    }
+    .kontakt {
+        border: 1px solid black;
+        border-radius: 20px;
+    }
