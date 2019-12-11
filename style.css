@@ -40,10 +40,34 @@ nav {
 background-color: wheat;
 text-align: right;
 }
-.contact a {
-    border: 2px solid white;
-    font-size: 16pt;
-    font-weight: green;
-    text-decoration: none;
-    padding: 3px 8px;
-}
+
+nav{
+        background-color: white;
+        text-align: right;
+    }
+.contact a{
+        text-decoration: none;
+        font-size: 16;
+        color: green;
+        font-weight: bold;
+        border: 2px solid white;
+        font-family: 'Cherry Bomb', cursive;
+        border-radius: 20px;
+        padding: 2px 8px;
+    }
+.slike1 {
+        display: flex;
+        justify-content: space-around;
+    }
+.prodavnica {
+        border: 1px solid black;
+        border-radius: 20px;
+    }
+.dostava {
+        border: 1px solid black;
+        border-radius: 20px;
+    }
+.kontakt {
+        border: 1px solid black;
+        border-radius: 20px;
+    }
