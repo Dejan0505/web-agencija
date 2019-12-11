@@ -3,7 +3,6 @@ body{
 }
 .contact{
     text-align: center;
-   
 }
 input{
       width:15%;
@@ -25,13 +24,12 @@ textarea{
     border-radius:10px;
     background:  rgb(79, 223, 215);
     border: 2px solid rgb(27, 59, 57);
-
 }
-
 a {
     
     color: green;
     font-family: 'Cherry Bomb', cursive;
+<<<<<<< HEAD
    
     
     } 
@@ -43,6 +41,14 @@ a {
         text-align: right;
         
     } */
+=======
+    padding: 10px;
+}
+nav{
+        background-color: white;
+        text-align: right;  
+}
+>>>>>>> b21b14a7e67faddf32231fd1d6abee36d5c24a61
 .contact a{
         text-decoration: none;
         font-size: 16;
@@ -52,30 +58,30 @@ a {
         font-family: 'Cherry Bomb', cursive;
         border-radius: 20px;
         padding: 2px 8px;
-    }
+}
 .slike1 {
         display: flex;
         justify-content: space-around;
-    }
+}
 .prodavnica {
         border: 1px solid black;
         border-radius: 20px;
-    }
+}
 .dostava {
         border: 1px solid black;
         border-radius: 20px;
-    }
+}
 .kontakt {
         border: 1px solid black;
         border-radius: 20px;
-    }
+}
 .container {
     background-color: white;
 }
 .paragraf1 {
     background-color: #89b431;
-    padding-left: 15px;
-    
+    padding-left: 15px; 
+    margin-bottom: 50px;
 }
 
 nav{
@@ -99,3 +105,7 @@ nav{
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.paragraf {
+    margin-top: 50px;
+}
+
