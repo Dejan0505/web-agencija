@@ -36,12 +36,11 @@ a {
     
     }
     
-<<<<<<< HEAD
-    nav {
+nav {
         background-color: wheat;
         text-align: right;
     }
-    .contact a{
+.contact a{
         text-decoration: none;
         font-size: 16;;
         color: green;
@@ -51,25 +50,19 @@ a {
         border-radius: 20px;
         padding: 2px 8px;
     }
-    .slike1 {
+.slike1 {
         display: flex;
         justify-content: space-around;
     }
-    .prodavnica {
+.prodavnica {
         border: 1px solid black;
         border-radius: 20px;
     }
-    .dostava {
+.dostava {
         border: 1px solid black;
         border-radius: 20px;
     }
-    .kontakt {
+.kontakt {
         border: 1px solid black;
         border-radius: 20px;
     }
-=======
-nav {
-background-color: wheat;
-text-align: right;
-}
->>>>>>> bab77c093104b8127bbd4fb83fd246111e8bce7a
