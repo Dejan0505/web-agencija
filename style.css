@@ -73,3 +73,19 @@ nav{
     margin-top: 50px;
 }
 
+<<<<<<< HEAD
+=======
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navig{
+    display:flex;
+    justify-content: space-around;
+    width: 40%;
+}
+.navig a{
+    padding: 15px;
+}
+>>>>>>> ecd6ee6a2c50365f4dc9d2c3c7c6a26539b8cafe
