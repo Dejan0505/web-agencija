@@ -27,3 +27,19 @@ textarea{
     border: 2px solid rgb(27, 59, 57);
 
 }
+.slike1 {
+    display: flex;
+    justify-content: space-around;
+}
+.prodavnica {
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.dostava {
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.kontakt {
+    border: 1px solid black;
+    border-radius: 20px;
+}
