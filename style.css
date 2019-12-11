@@ -11,8 +11,8 @@ input{
       margin-bottom: 10px;
       border-radius:10px;
       padding-left: 10px;
-      background: rgb(80, 192, 186);
-      border: 2px solid  white
+      background: rgb(79, 223, 215);
+      border: 2px solid  rgb(27, 59, 57);
 }
 .dugme input{
     width: 10%;
@@ -23,11 +23,10 @@ input{
 }
 textarea{
     border-radius:10px;
-    background: rgb(80, 192, 186);
-    border: 2px solid white
+    background: rgb(111, 238, 60);
+    border: 2px solid rgb(27, 59, 57);
 
 }
-<<<<<<< HEAD
 
 a {
     display: inline;
@@ -37,35 +36,7 @@ a {
     
     }
     
-    nav {
-        background-color: wheat;
-        text-align: right;
-    }
-    .contact a{
-        text-decoration: none;
-        font-size: 16;;
-        color: green;
-        font-weight: bold;
-        border: 2px solid white;
-        font-family: 'Cherry Bomb', cursive;
-        border-radius: 20px;
-        padding: 2px 8px;
-    }
-=======
-.slike1 {
-    display: flex;
-    justify-content: space-around;
+nav {
+background-color: wheat;
+text-align: right;
 }
-.prodavnica {
-    border: 1px solid black;
-    border-radius: 20px;
-}
-.dostava {
-    border: 1px solid black;
-    border-radius: 20px;
-}
-.kontakt {
-    border: 1px solid black;
-    border-radius: 20px;
-}
->>>>>>> 1622bab7d43ceda15fbbc8b81598fed7f2cf8f95
