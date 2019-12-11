@@ -27,3 +27,16 @@ textarea{
     border: 2px solid white
 
 }
+
+a {
+    display: inline;
+    color: green;
+    font-family: 'Cherry Bomb', cursive;
+    padding: 10px;
+    
+    }
+    
+    nav {
+        background-color: wheat;
+        text-align: right;
+    }
