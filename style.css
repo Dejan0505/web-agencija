@@ -10,7 +10,7 @@ input{
       margin-bottom: 10px;
       border-radius:10px;
       padding-left: 10px;
-      background: rgb(79, 223, 215);
+      background: white;
       border: 2px solid  rgb(27, 59, 57);
 }
 .dugme input{
@@ -22,7 +22,7 @@ input{
 }
 textarea{
     border-radius:10px;
-    background:  rgb(79, 223, 215);
+    background: white;
     border: 2px solid rgb(27, 59, 57);
 }
 a {
