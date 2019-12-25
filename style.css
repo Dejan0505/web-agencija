@@ -1,17 +1,21 @@
 body{
     background-image: url('img/pozadina.jpg');
 }
-.contact{
-    text-align: center;
+
+.logo{
+    display:flex;
+    justify-content: flex-start;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 input{
-      width:15%;
-      height: 30px;
-      margin-bottom: 10px;
-      border-radius:10px;
-      padding-left: 10px;
-      background: rgb(79, 223, 215);
-      border: 2px solid  rgb(27, 59, 57);
+    width:15%;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius:10px;
+    padding-left: 10px;
+    background: rgb(79, 223, 215);
+    border: 2px solid  rgb(27, 59, 57);
 }
 .dugme input{
     width: 10%;
@@ -25,61 +29,43 @@ textarea{
     background:  rgb(79, 223, 215);
     border: 2px solid rgb(27, 59, 57);
 }
-a {
-    
-    color: green;
+a{
+    color: #009900;
     font-family: 'Cherry Bomb', cursive;
-   
-    
-    } 
-    
-
-
-
-nav{
-        background-color: white;
-        text-align: right;  
+    text-decoration: none;
+    }
+a:hover {
+    text-decoration: none;
+    color: #006400;
 }
+/* Pocetak kontakta */
 .contact a{
-        text-decoration: none;
-        font-size: 16;
-        color: green;
-        font-weight: bold;
-        border: 2px solid white;
-        font-family: 'Cherry Bomb', cursive;
-        border-radius: 20px;
-        padding: 2px 8px;
+    text-decoration: none;
+    font-size: 16;
+    color: green;
+    font-weight: bold;
+    border: 2px solid white;
+    font-family: 'Cherry Bomb', cursive;
+    border-radius: 20px;
+    padding: 2px 8px;
 }
-.slike1 {
-        display: flex;
-        justify-content: space-around;
+.contact{
+    text-align: center;
 }
-.prodavnica {
-        border: 1px solid black;
-        border-radius: 20px;
-}
-.dostava {
-        border: 1px solid black;
-        border-radius: 20px;
-}
-.kontakt {
-        border: 1px solid black;
-        border-radius: 20px;
-}
-.container {
+/* Kraj kontakta */
+
+.pozadina {
     background-color: white;
 }
-.paragraf1 {
-    background-color: #89b431;
-    padding-left: 15px; 
-    margin-bottom: 50px;
+/* Pocetak navigacije */
+nav{
+    background-color: white;
+    text-align: right;  
 }
-
 nav{
     display: flex;
     justify-content: space-between;
 }
-
 .navig{
     display:flex;
     justify-content:flex-end;
@@ -90,18 +76,110 @@ nav{
    padding:15px;
    list-style: none;
 }
-.logo{
-    display:flex;
-    justify-content: flex-start;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
+/* Kraj navigacije */
+
+/* Pocetak paragrafa na pocetnoj strani */
 .paragraf {
     margin-top: 50px;
+    padding-bottom: 40px;
 }
+.paragraf1 {
+    background-color: #89b431;
+    padding-left: 15px; 
+    margin-bottom: 50px;
+}
+/* Kraj paragrafa na pocetnoj strani */
+
+/* Pocetak podesavanje kartica na pocetnoj strani */
+ .slike1 {
+        display: flex;
+        justify-content: space-around;
+}
+.prodavnica {
+        border: 1px solid black;
+        border-radius: 20px;
+        overflow: hidden;
+}
+.dostava {
+        border: 1px solid black;
+        border-radius: 20px;
+        overflow: hidden;
+}
+.kontakt {
+        border: 1px solid black;
+        border-radius: 20px;
+        overflow: hidden;
+}
+/* Kraj podesavanja kartica na pocetnoj strani */
+
+/* Pocetak footera */
+
 .footer {
     background-color: #89b431;
-    margin-left: 189px;
-    margin-right: 189px;
+    color: white;
+    height: 450px;
+    position: relative;
+}
+.footer .footer-bottom {
+    background: #9ACD32;
+    color: white;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+}
+.footer .footer-content{
+    height: 100%;
+    display: flex;  
+}
+.footer .footer-content .footer-section {
+    flex: 1;
+    padding: 25px;
+    border: 1px solid white;
+} 
+h2 {
+    color: #ADFF2F;
+}
+.footer .footer-content .links a {
+    display: block;
+    margin-bottom: 7px;
+    font-size: 1.2em;
+    transition: all .3s;
+}
+.footer .footer-content .links a:hover {
+    color: #006400;
+    margin-left: 15px;
+    transition: all .3s;
 }
 
+
+/* Kraj footera */
+
+/* Pocetak Social Media Ikonice */
+.footer .footer-content .contact-form .socials a {
+    color: black;
+    border: 1px solid black;
+    width: 45px;
+    height: 45ox;
+    padding-top: 5px;
+    margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3em;
+    border-radius: 5px;
+}
+.footer .footer-content .contact-form .socials a:hover {
+    border: 1px solid gold;
+    color: orangered;
+}
+
+/* Kraj Social Media Ikonice */
+
+/* Media Query */
+
+    
+
+    
