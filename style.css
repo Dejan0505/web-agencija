@@ -9,25 +9,29 @@ body{
     padding-bottom: 10px;
 }
 input{
-    width:15%;
+    width:47%;
     height: 30px;
     margin-bottom: 10px;
     border-radius:10px;
     padding-left: 10px;
-    background: rgb(79, 223, 215);
-    border: 2px solid  rgb(27, 59, 57);
+    background: white;
+    border: 2px solid #009900;
 }
+
+
 .dugme input{
-    width: 10%;
-    height: 30px;
-    font-size: 16pt;
+    margin-top: 40px;
+    text-align: center;
     font-weight: bold;
-    color: rgb(153, 28, 87);
+}
+
+.slikakontakt{
+    margin-bottom: 80px;
 }
 textarea{
     border-radius:10px;
     background: white;
-    border: 2px solid rgb(27, 59, 57);
+    border: 2px solid#009900;
 }
 a{
     color: #009900;
@@ -51,6 +55,9 @@ a:hover {
 }
 .contact{
     text-align: center;
+}
+#razmak{
+    margin-bottom: 60px;
 }
 /* Kraj kontakta */
 
@@ -176,6 +183,10 @@ h2 {
     border: 1px solid gold;
     color: orangered;
 }
+label{
+    float: left;
+}
+
 
 /* Kraj Social Media Ikonice */
 
