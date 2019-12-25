@@ -2,16 +2,16 @@
 <html lang="en">
 
 <head>
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
@@ -23,7 +23,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container" id="razmak">
         <nav>
 
             <div class="logo"><img src="img/logo.png" alt="logo" width="90px"></div>
@@ -37,76 +37,120 @@
 
 
         </nav>
-<form action="page.php">
-        <div class="contact">
-            <img src="img/kontakT.jfif" alt="kontakt"><br>
-             <label for="ime">Unesite vase ime:</label>
-            <input id="ime" type="text" required placeholder="Ime"><br>
-            <input id="prezime" type="text" required placeholder="Prezime">
-            <input id="email" type="email" required placeholder="Email">
-            <input id="broj" type="tel" placeholder="+381..."><br>
-            <input id="godine" type="number" placeholder=" Godiste">
-            <input id="grad" type="text" placeholder="Grad">
-            
-            <div class="textarea">
-                <textarea name="" id="" cols="87" rows="15" placeholder="Ovde unesite poruku"></textarea></div>
-            <div class="dugme">
-                <input type="submit" value="SEND">
 
-                
+        <form action="page.php">
+
+            <div class="contact">
+                <img class="slikakontakt" src="img/kontakT.jfif" alt="kontakt"><br>
+                <div class="container">
+                    <div class="row row-cols-3">
+                        <div class="col">
+                            <label for="ime"><strong>Unesite vase:</strong> </label>
+                            <input id="ime" type="text" required placeholder="Ime"><br>
+                            <label for="prezime"><strong>Unesite vase:</strong></label>
+                            <input id="prezime" type="text" required placeholder="Prezime"><br>
+                            <label for="email"><strong>Unesite vas :</strong></label>
+                            <input id="email" type="email" required placeholder="Email"><br>
+                            <label for="broj"><strong>Unesite vase:</strong></label>
+                            <input id="broj" type="tel" placeholder="+381..."><br>
+                            <label for="godine"><strong>Unesite vase:</strong></label>
+                            <input id="godine" type="number" placeholder=" Godiste"><br>
+                            <label for="grad"><strong>Unesite vase:</strong></label>
+                            <input id="grad" type="text" placeholder="Grad"><br>
+
+                        </div>
+
+                        <div class="col">
+                            <div class="textarea">
+                                <textarea name="" id="" cols="50" rows="9"
+                                    placeholder="Ovde unesite poruku"></textarea>
+
+                            </div>
+
+                        </div>
+                        <div class="col">
+
+                            <div class="dugme">
+                                <input type="submit" value="POSALJI"> <br>
+                                <input type="reset" value="OBRISI">
+                            </div>
+
+
+
+
+
+
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+
+
+                </div>
+
+
+
+
+
+
             </div>
-        </div>
     </div>
-</form>
+
+    </form>
     <div class="footer container">
-        
+
         <div class="footer-content">
-          <div class="footer-section about">
-              <h2>O nama</h2>
-              <p>Pet shop Buvara nudi Vam veliki izbor hrane,
-               poslastica, opreme, igračaka i svega drugog
-                što je neophodno kako bi Vaš ljubimac
-                 bio zdrav, veseo i negovan.
-                  U našoj ponudi nalazi se preko
-                   1.000 artikala za sve vrste ljubimaca,
+            <div class="footer-section about">
+                <h2>O nama</h2>
+                <p>Pet shop Buvara nudi Vam veliki izbor hrane,
+                    poslastica, opreme, igračaka i svega drugog
+                    što je neophodno kako bi Vaš ljubimac
+                    bio zdrav, veseo i negovan.
+                    U našoj ponudi nalazi se preko
+                    1.000 artikala za sve vrste ljubimaca,
                     bilo da su psi, mačke, glodari,
-                     papagaji, zečevi, ribice ili kornjače.</p>
-          </div>
-          <div class="footer-section links">
-            <h2>Brzi Linkovi</h2><br>
-            <ul>
-           <li><a href="index.html">Pocetna</a></li><br>
-           <li><a href="about.html">O nama</a></li><br>
-           <li><a href="proizvodi.html">Proizvodi</a></li><br>
-           <li><a href="contact.html">Kontakt</a></li>
-          </ul>
-          </div>
-          <div class="footer-section contact-form">
-            <h2>Kontakt</h2>
-            <b>Prodavnica 1</b><br>
-            <p>Jurija Gagarina 227, lokal 12, TC Enjub,<br>
-            Novi Beograd<br>
-            <span><i class="fas fa-envelope"></i>&nbsp;E-mail: buvarashop@gmail.com</span><br>
-            <span><i class="fas fa-phone"></i> &nbsp;Telefon: 069/733-833</span></p><br>
-            <b>Prodavnica 2</b><br>
-            Pozeska 106, Banovo Brdo<br>
-            <span><i class="fas fa-envelope"></i>&nbsp;E-mail: buvarashop@gmail.com</span><br>
-            <span><i class="fas fa-phone"></i> &nbsp;Telefon: 063/370/126</span></p>
-            
-            <div class="socials">
-              <a href="#"><i class="fab fa-facebook"></i></a>
-              <a href="#"><i class="fab fa-instagram"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-youtube"></i></a>
+                    papagaji, zečevi, ribice ili kornjače.</p>
             </div>
-          </div>
+            <div class="footer-section links">
+                <h2>Brzi Linkovi</h2><br>
+                <ul>
+                    <li><a href="index.html">Pocetna</a></li><br>
+                    <li><a href="about.html">O nama</a></li><br>
+                    <li><a href="proizvodi.html">Proizvodi</a></li><br>
+                    <li><a href="contact.html">Kontakt</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact-form">
+                <h2>Kontakt</h2>
+                <b>Prodavnica 1</b><br>
+                <p>Jurija Gagarina 227, lokal 12, TC Enjub,<br>
+                    Novi Beograd<br>
+                    <span><i class="fas fa-envelope"></i>&nbsp;E-mail: buvarashop@gmail.com</span><br>
+                    <span><i class="fas fa-phone"></i> &nbsp;Telefon: 069/733-833</span></p><br>
+                <b>Prodavnica 2</b><br>
+                Pozeska 106, Banovo Brdo<br>
+                <span><i class="fas fa-envelope"></i>&nbsp;E-mail: buvarashop@gmail.com</span><br>
+                <span><i class="fas fa-phone"></i> &nbsp;Telefon: 063/370/126</span></p>
+
+                <div class="socials">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
         </div>
 
         <div class="footer-bottom">
-          &copy; 2019 <a href="index.html">Buvara Pet Shop</a>| All Right reserved.
+            &copy; 2019 <a href="index.html">Buvara Pet Shop</a>| All Right reserved.
         </div>
 
-      </div>
+    </div>
 </body>
 
 </html>
