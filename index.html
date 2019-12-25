@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <script src="https://kit.fontawesome.com/4d516ae79e.js" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
     crossorigin="anonymous"></script>
@@ -20,13 +21,13 @@
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Cherry+Bomb&display=swap" rel="stylesheet">
+  
 </head>
 
 <body>
 
-  <div class="container">
-
-
+  <div class="container pozadina">
+    
     <nav>
 
       <div class="logo"><img src="img/logo.png" alt="logo" width="90px"></div>
@@ -71,13 +72,29 @@
 
       
       <br>
-      
-      
       <div class="slike1">
-      <a href="#"><img class="prodavnica" src="img/prodavnica.jpg" alt="Prodavnica" width="250" height="250"></a>
-      <a href="#"><img class="dostava" src="img/dostava.jpg" alt="Dostava" width="250" height="250"></a>
-      <a href="contact.html"><img class="kontakt" src="img/kontakt.jpg" alt="Kontakt" width="250" height="250"></a>
+          <div class="card prodavnica" style="width: 18rem;">
+              <img src="img/prodavnica.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+
+            <div class="card dostava" style="width: 18rem;">
+                <img src="img/dostava.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+
+              <div class="card kontakt" style="width: 18rem;">
+                  <img src="img/kontakt.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
       </div>
+      
 
       <div class="paragraf">
         <div class="paragraf1">BUVARA PETSHOP</div>
@@ -94,26 +111,58 @@
 
       </div>
 
-  
-      <div class="footer">
-        <div class="prodavnica2">
-        <p>Prodavnica 1<br>
-           Jurija Gagarina 227, lokal 12, TC<br>
-           Enjub, Novi Beograd <br>
-           Telefon: 069/733-833
-        </p>
-        <p>Prodavnica 2<br>
-           Pozeska 106, Banovo Brdo<br>
-           Telefon: 063/370-126
+  </div>
+      
+      <div class="footer container">
+        
+        <div class="footer-content">
+          <div class="footer-section about">
+              <h2>O nama</h2>
+              <p>Pet shop Buvara nudi Vam veliki izbor hrane,
+               poslastica, opreme, igračaka i svega drugog
+                što je neophodno kako bi Vaš ljubimac
+                 bio zdrav, veseo i negovan.
+                  U našoj ponudi nalazi se preko
+                   1.000 artikala za sve vrste ljubimaca,
+                    bilo da su psi, mačke, glodari,
+                     papagaji, zečevi, ribice ili kornjače.</p>
+          </div>
+          <div class="footer-section links">
+            <h2>Brzi Linkovi</h2><br>
+            <ul>
+           <li><a href="index.html">Pocetna</a></li><br>
+           <li><a href="about.html">O nama</a></li><br>
+           <li><a href="proizvodi.html">Proizvodi</a></li><br>
+           <li><a href="contact.html">Kontakt</a></li>
+          </ul>
+          </div>
+          <div class="footer-section contact-form">
+            <h2>Kontakt</h2>
+            <b>Prodavnica 1</b><br>
+            <p>Jurija Gagarina 227, lokal 12, TC Enjub,<br>
+            Novi Beograd<br>
+            <span><i class="fas fa-envelope"></i>&nbsp;E-mail: buvarashop@gmail.com</span><br>
+            <span><i class="fas fa-phone"></i> &nbsp;Telefon: 069/733-833</span></p><br>
+            <b>Prodavnica 2</b><br>
+            Pozeska 106, Banovo Brdo<br>
+            <span><i class="fas fa-envelope"></i>&nbsp;E-mail: buvarashop@gmail.com</span><br>
+            <span><i class="fas fa-phone"></i> &nbsp;Telefon: 063/370/126</span></p>
+            
+            <div class="socials">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
 
-        </p>
+        <div class="footer-bottom">
+          &copy; 2019 <a href="index.html">Buvara Pet Shop</a>| All Right reserved.
+        </div>
 
-    
       </div>
-
     </div>
- 
-</div>
 </body>
 
 </html>
