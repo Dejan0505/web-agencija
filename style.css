@@ -65,6 +65,12 @@ a:hover {
     background-color: white;
 }
 /* Pocetak navigacije */
+#burger{
+    width: 70px;
+}
+nav{
+    display: none;
+} 
 nav{
     background-color: white;
     text-align: right;  
